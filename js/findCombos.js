@@ -25,5 +25,3 @@ function getFactorial(num) {
   }
   return factorial;
 }
-
-console.log(findCombos([1, 2, 3]));
