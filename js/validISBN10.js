@@ -12,5 +12,3 @@ function validISBN10(isbn) {
   if (!(calculatedIsbn % 11 === 0)) return false;
   return true;
 }
-
-console.log(validISBN10(1112223339));
