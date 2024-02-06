@@ -1,16 +1,4 @@
-#include <stdio.h>
 #include <limits.h>
-
-int sum(const int numbers[], int length);
-
-int main () {
-  int arr[] = {6, 0, 1, 10, 10};
-  int sumForPrint = sum(arr, 5);
-
-  printf("%d", sumForPrint);
-
-  return 0;
-}
 
 int sum (const int numbers[], int length) {
   int min = INT_MAX;
