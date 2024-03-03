@@ -4,4 +4,3 @@ const addBinary = function (a, b) {
   return binaryNum;
 };
 
-console.log(addBinary(1, 1));
