@@ -8,5 +8,3 @@ int sum_array(const int *values, size_t count) {
   }
   return sum;
 }
-
-cout << sum_array([1, 2, 3], 3);
