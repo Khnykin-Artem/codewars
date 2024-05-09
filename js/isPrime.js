@@ -15,11 +15,9 @@ const isPrime = function (num) {
     const result = results.slice(1, results.length - 1).every((el) => {
       return el === false;
     });
-    console.log(results.slice(1, results.length));
+
     return result;
   }
 
   return false;
 };
-
-console.log(isPrime(3));
